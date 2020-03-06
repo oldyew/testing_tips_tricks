@@ -20,7 +20,7 @@ git config --list
 git init
 git status
 
-## add(stage)/unstage
+## stage(add)
 
 ```git
 git add <file>
@@ -35,8 +35,8 @@ git add -p # allow to add changes one by one to already added commits
 ```git
 
 git commit -m 'text' # make a staged commit
-git commit -a -m 'text' # add/stage and commit 
-git commit --amend
+git commit -am 'text' # stage and commit
+git commit --amend # add to the last commit
 git commit -a --amend --no-edit
 
 ## remove files
@@ -44,3 +44,18 @@ git commit -a --amend --no-edit
 ```git
 git rm <file> # remove from git and system
 git rm --cached <file> # remove from git only
+
+## undo changes
+
+```git
+git reset # undo all added or removed
+git reset <file>
+git reset commit_SHA^ # undo commit
+git reset --hard commit_SHA^ # undo commnit and restore deleted files
+git reset --hard # undo to the previous stage
+
+## revert
+
+```git
+git revert commit_SHA
+git revert -n commit_SHA
