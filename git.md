@@ -20,19 +20,14 @@ git config --list
 git init
 git status
 
-## add(stage)/remove/unstage
+## add(stage)/unstage
 
 ```git
 git add <file>
-git rm --cached <file>
 git restore --staged <file>
-
-git add . # add all files
-
+git add .  # add all files
 git add -A # add all file in all dir from any dir
-
 git add -u # add untracked files
-
 git add -p # allow to add changes one by one to already added commits
 
 ## commits
@@ -43,3 +38,9 @@ git commit -m 'text' # make a staged commit
 git commit -a -m 'text' # add/stage and commit 
 git commit --amend
 git commit -a --amend --no-edit
+
+## remove files
+
+```git
+git rm <file> # remove from git and system
+git rm --cached <file> # remove from git only
