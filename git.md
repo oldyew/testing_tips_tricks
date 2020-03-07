@@ -59,3 +59,16 @@ git reset --hard # undo to the previous stage
 ```git
 git revert commit_SHA
 git revert -n commit_SHA
+
+
+
+<!-- git remote add origin 'git url'
+git push -u origin master
+
+git pull
+git checkout -b [name_of_your_new_branch]
+git push remote [name_of_your_new_branch]
+
+git branch -a
+
+git remote add [name_of_your_remote] [name_of_your_new_branch] -->
