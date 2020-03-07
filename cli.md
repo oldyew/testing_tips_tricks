@@ -1,5 +1,60 @@
 # CLI
 
+cd ~
+cd -
+cd /
+
+ls
+ls -l
+ls -a
+ls -R
+ls -lh
+
+man command
+
+q
+
+touch
+
+mkdir
+rmdir
+
+mv
+cp
+
+rm
+rm -r
+rm -rf
+rm -ri
+
+git reset --hard
+
+cat
+
+less
+/<word>
+
+grep -i
+grep -v
+grep -R
+grep -e
+
+:w
+:q
+:q!
+dd
+
+find . -name *_file
+find . -type d
+find . -type f
+find . -name "*.mp3" -delete
+find . -name "*.mp3" -delete -print
+
+
+
+
+
+
 ## Generate file
 
 fsutil file createnew filename length
