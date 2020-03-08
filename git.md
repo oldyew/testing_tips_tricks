@@ -145,6 +145,48 @@ git cherry-pick SHA^..SHA # range
 git cherry-pick -n SHA # make changes but it's not committed
 ```
 
+## Sharing Work
+
+```git
+git clone URL
+git clone URL folder_name
+```
+
+```git
+git remote
+git remote -v
+git remote add upstream URL/SSH
+git remote rename name name
+git remote set-url origin URL
+git remote remove
+```
+
+```git
+git push
+git push origin branch_name
+git push origin HEAD
+git push -u origin HEAD
+git push origin :branch_name # remove branch
+git push -f origin HEAD
+```
+
+```git
+git fetch
+git fetch --all
+git fetch --multiple origin upstream
+git fetch --prune origin
+```
+
+```git
+git pull
+git pull origin master
+git pull = git fetch + git merge
+git pull --rebase origin master
+```
+
+```git
+```
+
 <!-- git remote add origin 'git url'
 git push -u origin master
 
