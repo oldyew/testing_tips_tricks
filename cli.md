@@ -4,6 +4,9 @@ cd ~
 cd -
 cd /
 
+ll
+
+
 ls
 ls -l
 ls -a
@@ -80,3 +83,13 @@ for /L %i in (1,1,21) do type dummy.txt >> dummy.txt
 100 GB =107374182400 bytes
 1 TB = 1099511627776 bytes
 10 TB =10995116277760 bytes
+
+realpath
+
+busybox - a lot of commands
+
+history
+
+aliases
+
+
